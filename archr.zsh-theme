@@ -4,12 +4,12 @@
 #
 # Inspired by af-magic theme, fishy
 
-if [ $UID -eq 0 ]; then NCOLOR="red"; else NCOLOR="white"; fi
-local return_code="%(?..%{$fg[red]%}%? .%{$reset_color%})"
+#if [ $UID -eq 0 ]; then NCOLOR="red"; else NCOLOR="blue"; fi
 
 PROMPT=$'[%n@%m %c]# '
 
-local return_status="%(?..%?)"
+local return_code="%(?..%{$fg[red]%}%? .%{$reset_color%})"
+local return_status="%(?..%?) "
 RPROMPT='${return_status}$(git_prompt_info)$(git_prompt_status)'
 
 # Git settings
