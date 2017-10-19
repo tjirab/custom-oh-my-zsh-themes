@@ -1,6 +1,6 @@
 # archr.zsh-theme
-# Repo:
-# Direct link
+# Repo: https://github.com/tjirab/custom-oh-my-zsh-themes
+# Direct link: https://github.com/tjirab/custom-oh-my-zsh-themes/blob/master/archr.zsh-theme
 #
 # Inspired by af-magic theme, fishy
 
